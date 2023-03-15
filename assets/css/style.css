@@ -54,6 +54,7 @@
   --tp-theme-3: #F5062F;
   --tp-border-1: #fff;
   --tp-border-2: #F5062F;
+  --tp-border-3: #21455F;
   /**
   @font weight declaration
   */
@@ -565,7 +566,7 @@ img {
   -moz-border-radius: 8px;
   -o-border-radius: 8px;
   -ms-border-radius: 8px;
-  border-radius: 8px;
+  border-radius: 60px;
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -576,6 +577,7 @@ img {
 .tp-btn:hover {
   color: var(--tp-common-white);
   background-color: var(--tp-common-black);
+  border: 1px solid#ffffff;
 }
 .tp-btn:focus {
   color: var(--tp-common-white);
@@ -935,8 +937,9 @@ img {
 }
 .breadcrumb__list {
   display: inline-block;
-  background-color: var(--tp-common-white);
+  background: linear-gradient(93.25deg, #FFFFFF 23.6%, rgba(255, 255, 255, 0) 100%);
   padding: 10px 24px;
+  border-radius: 60px;
 }
 @media (max-width: 767px) {
   .breadcrumb__list {
@@ -960,7 +963,7 @@ img {
   display: inline-block;
 }
 .breadcrumb__list span a:hover {
-  color: var(--tp-common-black);
+  color: var(--tp-border-2);
 }
 .breadcrumb__list span.sub-page-black {
   color: var(--tp-common-black);
@@ -1559,7 +1562,7 @@ img {
   position: relative;
   list-style: none;
   display: inline-block;
-  margin-right: 27px;
+  margin-right: 60px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .main-menu ul > li {
@@ -1572,18 +1575,18 @@ img {
   font-family: "Gordita-500";
   font-size: 16px;
   color: var(--tp-common-white);
-  padding: 23px 0;
+  padding: 24px 0;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .main-menu ul > li > a {
-    font-size: 15px;
+    font-size: 16px;
   }
 }
 .main-menu ul > li > a::before {
   position: absolute;
   content: "";
   background-image: url("../../assets/img/banner/h-shape-01.png");
-  top: 53px;
+  top: 56px;
   left: 0;
   height: 4px;
   width: 0px;
@@ -1610,6 +1613,7 @@ img {
   top: 120%;
   left: 0;
   width: 200px;
+  border-radius: 14px;
   background: var(--tp-common-white);
   z-index: 99;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -1660,7 +1664,7 @@ img {
   opacity: 0;
 }
 .main-menu ul > li .submenu li:hover > a {
-  color: var(--tp-heading-secondary);
+  color: var(--tp-heading-tertiary);
 }
 .main-menu ul > li .submenu li:hover > .submenu {
   left: 100%;
@@ -1668,10 +1672,10 @@ img {
   opacity: 1;
 }
 .main-menu ul > li:hover > a {
-  color: var(--tp-theme-1);
+  color: var(--tp-theme-3);
 }
 .main-menu ul > li:hover > a::after {
-  color: var(--tp-theme-1);
+  color: var(--tp-theme-3);
 }
 .main-menu ul > li:hover > a::before {
   width: 41px;
@@ -1725,7 +1729,8 @@ img {
   color: var(--tp-common-white);
 }
 .header-meta ul li > a:hover {
-  background: var(--tp-heading-secondary);
+  background: var(--tp-border-2);
+  color: var(--tp-border-1);
 }
 
 .header-meta-green ul {
@@ -1923,7 +1928,7 @@ ul.bili_circle li::before {
   -webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
   animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
   -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
-  background: var(--tp-border-2);
+  background: var(--tp-border-3);
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -3167,7 +3172,7 @@ div.choose-sub-color {
 
 .tpcourse__thumb {
   transform: scale(1);
-  -webkit-transition: all 0.5s ease-out 0s;
+  -webkit-transition: all 0.5s ease-out 0s;276k
   -moz-transition: all 0.5s ease-out 0s;
   -ms-transition: all 0.5s ease-out 0s;
   -o-transition: all 0.5s ease-out 0s;
@@ -3187,8 +3192,8 @@ div.choose-sub-color {
   line-height: 50px;
   font-size: 20px;
   text-align: center;
-  background: var(--tp-common-white);
-  color: var(--tp-heading-secondary);
+  background: #ffffff34;
+  color: var(--tp-common-white);
   border-radius: 50px;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
@@ -3197,8 +3202,8 @@ div.choose-sub-color {
   transition: all 0.3s ease-out 0s;
 }
 .tpcourse__tag:hover i {
-  background-color: var(--tp-heading-secondary);
-  color: var(--tp-common-white);
+  background-color: var(--tp-heading-tertiary);
+  color: var(--tp-heading-secondary);
 }
 .tpcourse__img-icon {
   position: absolute;
@@ -4285,10 +4290,6 @@ div.choose-sub-color {
 .counter-left-title::before {
   right: 0;
   margin: 0;
-}
-
-.counter-b-border {
-  border-bottom: 1px solid #668E85;
 }
 
 /*----------------------------------------*/
@@ -5735,7 +5736,7 @@ blockquote cite::before {
   line-height: 58px;
   padding: 0 18px;
   background: #F8FAFA;
-  border-radius: 4px;
+  border-radius: 12px;
   border: 2px solid #F8FAFA;
   color: var(--tp-heading-primary);
   font-size: 16px;

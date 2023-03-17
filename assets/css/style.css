@@ -4798,6 +4798,7 @@ div.choose-sub-color {
 /*----------------------------------------*/
 .brand-item {
   text-align: center;
+  padding-top: 20px;
 }
 .brand-item a {
   display: inline-block;

@@ -428,11 +428,11 @@ img {
   height: 40px;
   line-height: 36px;
   text-align: center;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  -o-border-radius: 7px;
-  -ms-border-radius: 7px;
-  border-radius: 7px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -o-border-radius: 8px;
+  -ms-border-radius: 8px;
+  border-radius: 8px;
   border: 2px solid #f1f1f1;
   font-size: 16px;
   font-weight: 400;
@@ -566,7 +566,7 @@ img {
   -moz-border-radius: 8px;
   -o-border-radius: 8px;
   -ms-border-radius: 8px;
-  border-radius: 60px;
+  border-radius: 80px;
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -577,7 +577,6 @@ img {
 .tp-btn:hover {
   color: var(--tp-common-white);
   background-color: var(--tp-common-black);
-  border: 1px solid#ffffff;
 }
 .tp-btn:focus {
   color: var(--tp-common-white);
@@ -615,6 +614,38 @@ img {
   color: var(--tp-common-white);
 }
 
+/* theme btn style 2*/
+.tp-btn-2 {
+    display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 10px;
+  padding: 21px 32px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 80px;
+  border: 0px;
+  background-image: linear-gradient(83.12deg, #F5062F 0%, #FF4A4A 100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.tp-btn-2:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0px 0px 40px 8px #FF1D44;
+}
+
+.tp-btn-2:active {
+  transform: scale(0.95);
+}
+
 /* border btn */
 .tp-border-btn {
   display: inline-block;
@@ -627,11 +658,11 @@ img {
   text-align: center;
   padding: 10px 25px;
   text-transform: capitalize;
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  -o-border-radius: 8px;
-  -ms-border-radius: 8px;
-  border-radius: 8px;
+  -webkit-border-radius: 80px;
+  -moz-border-radius: 80px;
+  -o-border-radius: 80px;
+  -ms-border-radius: 80px;
+  border-radius: 80px;
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -641,7 +672,8 @@ img {
 }
 .tp-border-btn:hover {
   color: var(--tp-common-white);
-  background-color: var(--tp-heading-secondary);
+  background-color: var(--tp-heading-tertiary);
+  border: 1px solid var(--tp-heading-tertiary);
 }
 .tp-border-btn:focus {
   color: var(--tp-common-white);
@@ -659,11 +691,11 @@ img {
   text-align: center;
   padding: 7px 20px;
   text-transform: capitalize;
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
-  -o-border-radius: 50px;
-  -ms-border-radius: 50px;
-  border-radius: 50px;
+  -webkit-border-radius: 80px;
+  -moz-border-radius: 80px;
+  -o-border-radius: 80px;
+  -ms-border-radius: 80px;
+  border-radius: 80px;
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -843,7 +875,7 @@ img {
   font-size: 16px;
   background: rgba(202, 210, 225, 0.3);
   color: var(--tp-heading-secondary);
-  border-radius: 5px;
+  border-radius: 8px;
   display: inline-block;
   font-family: "Gordita-500";
   line-height: 1;
@@ -1506,7 +1538,7 @@ img {
   font-size: 16px;
   color: var(--tp-common-white);
   background: var(--tp-heading-secondary);
-  border-radius: 5px;
+  border-radius: 8px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .header-cat-menu ul li a {
@@ -1613,7 +1645,7 @@ img {
   top: 120%;
   left: 0;
   width: 200px;
-  border-radius: 14px;
+  border-radius: 16px;
   background: var(--tp-common-white);
   z-index: 99;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -1803,7 +1835,7 @@ div.main-menu-black ul li.has-dropdown > a:hover::after {
   color: var(--tp-text-2);
   border: none;
   background-color: #F4F7F6;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 .header-search-box form input::placeholder {
   font-size: 16px;
@@ -1817,7 +1849,7 @@ div.main-menu-black ul li.has-dropdown > a:hover::after {
   font-size: 16px;
   color: #fff;
   background-color: var(--tp-border-2);
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
 .tp-sidebar-menu {
@@ -2074,7 +2106,7 @@ ul.bili_circle li::before {
   padding: 25px 21px;
   border: 1px solid var(--tp-common-white);
   background: rgba(255, 255, 255, 0.1);
-  border-radius: 5px;
+  border-radius: 8px;
   display: block;
   z-index: 2;
   backdrop-filter: blur(100px);
@@ -2333,7 +2365,7 @@ ul.bili_circle li::before {
   padding: 16px 25px;
   line-height: 1;
   display: inline-block;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 @media (max-width: 767px) {
   .slider-text {
@@ -2364,7 +2396,7 @@ ul.bili_circle li::before {
   padding: 25px 20px;
   border: 1px solid var(--tp-common-white);
   background: rgba(255, 255, 255, 0.1);
-  border-radius: 5px;
+  border-radius: 8px;
   display: block;
   z-index: 2;
   color: var(--tp-common-white);
@@ -2912,7 +2944,7 @@ div.choose-sub-color {
 }
 .video-bg > img {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 12px;
 }
 
 .video-text {
@@ -2994,7 +3026,7 @@ div.choose-sub-color {
   left: 80px;
   background: var(--tp-common-white);
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 12px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .video-shape-3 {
@@ -3177,7 +3209,7 @@ div.choose-sub-color {
   -ms-transition: all 0.5s ease-out 0s;
   -o-transition: all 0.5s ease-out 0s;
   transition: all 0.5s ease-out 0s;
-  border-radius: 5px;
+  border-radius: 8px;
   display: block;
 }
 .tpcourse__tag {
@@ -3297,7 +3329,7 @@ div.choose-sub-color {
   display: block;
   padding: 13px 18px;
   background: rgba(202, 210, 225, 0.3);
-  border-radius: 5px;
+  border-radius: 80px;
   font-size: 16px;
   color: var(--tp-heading-primary);
   line-height: 1;
@@ -3577,7 +3609,7 @@ div.choose-sub-color {
 .course-sidebar {
   padding: 40px 40px;
   box-shadow: 5px 15px 30px 10px rgba(5, 13, 54, 0.03);
-  border-radius: 10px;
+  border-radius: 12px;
 }
 .course-sidebar__title {
   color: var(--tp-color-primary);
@@ -3594,7 +3626,7 @@ div.choose-sub-color {
   font-size: 14px;
   padding: 5px;
   background-color: rgba(202, 210, 225, 0.3);
-  border-radius: 5px;
+  border-radius: 8px;
   line-height: 1;
 }
 .c-info-list .form-check-input {
@@ -3602,13 +3634,13 @@ div.choose-sub-color {
   border: none;
   height: 25px;
   width: 25px;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 .c-info-list .form-check-input:checked {
   background-color: var(--tp-heading-secondary);
 }
 .c-info-list .form-check-input[type=checkbox] {
-  border-radius: 5px;
+  border-radius: 8px;
 }
 .c-info-list .form-check-input:focus {
   box-shadow: none;
@@ -3865,16 +3897,16 @@ div.choose-sub-color {
 }
 
 .c-details-sidebar {
-  padding: 15px 15px 50px 15px;
+  padding: 16px 16px 16px 16px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   border-radius: 12px;
 }
 .c-details-sidebar .course-details-widget {
-  padding: 0 15px;
+  padding: 16px;
 }
 
 .c-video-thumb img {
-  border-radius: 5px;
+  border-radius: 8px;
   width: 100%;
 }
 .c-video-thumb .c-video-icon {
@@ -4458,12 +4490,12 @@ div.choose-sub-color {
 .instruc-sidebar {
   padding: 15px 15px 50px 15px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
 .isntruc-side-thumb img {
   width: 100%;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
 .instructor-sidebar-widget {
@@ -4501,7 +4533,7 @@ div.choose-sub-color {
   font-family: "Gordita-500";
   background: var(--tp-heading-secondary);
   color: var(--tp-common-white);
-  border-radius: 10px;
+  border-radius: 12px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .instruc-side-btn .ins-btn {
@@ -4531,7 +4563,7 @@ div.choose-sub-color {
   width: 50px;
   background: var(--tp-heading-secondary);
   left: 0;
-  border-radius: 10px;
+  border-radius: 12px;
 }
 .isntruc-tp-counter p {
   font-size: 18px;
@@ -4585,7 +4617,7 @@ div.choose-sub-color {
 /*----------------------------------------*/
 .tp-suit {
   padding: 52px 20px 50px 30px;
-  border-radius: 10px;
+  border-radius: 12px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .tp-suit__content {
@@ -4726,7 +4758,7 @@ div.choose-sub-color {
 .tp-section-arrow .slick-arrow {
   height: 60px;
   width: 60px;
-  background: #FFF0EE;
+  background: #FfffFF;
   color: var(--tp-heading-secondary);
   border-radius: 50px;
   font-size: 50px;
@@ -5001,7 +5033,7 @@ div.choose-sub-color {
   font-size: 16px;
   font-family: "Gordita-500";
   font-weight: 500;
-  border-radius: 5px;
+  border-radius: 8px;
   box-shadow: rgba(5, 13, 54, 0.05) 5px 15px 30px 0px;
 }
 .tp-blog:hover {
@@ -5015,7 +5047,7 @@ div.choose-sub-color {
   right: 30px;
 }
 .tp-blog .blog-round {
-  border-radius: 10px 10px 0 0;
+  border-radius: 12px 12px 0 0;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -5269,11 +5301,11 @@ div.choose-sub-color {
   color: var(--tp-common-black);
   outline: none;
   border: 1px solid transparent;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  -o-border-radius: 7px;
-  -ms-border-radius: 7px;
-  border-radius: 7px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -o-border-radius: 8px;
+  -ms-border-radius: 8px;
+  border-radius: 8px;
   background: #f7f7f7;
 }
 .postbox__comment-input textarea {
@@ -5521,11 +5553,11 @@ div.choose-sub-color {
   background: var(--tp-grey-1);
   padding: 0 25px;
   text-transform: capitalize;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  -o-border-radius: 7px;
-  -ms-border-radius: 7px;
-  border-radius: 7px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -o-border-radius: 8px;
+  -ms-border-radius: 8px;
+  border-radius: 8px;
   border: 2px solid var(--tp-grey-1);
   outline: none;
   padding-top: 3px;
@@ -5589,7 +5621,7 @@ div.choose-sub-color {
   padding: 10px 23px;
   margin-bottom: 10px;
   margin-right: 5px;
-  border-radius: 5px;
+  border-radius: 8px;
   border: 0;
 }
 .tagcloud a:hover {
@@ -5665,7 +5697,7 @@ blockquote cite::before {
 /*  17. CONTACT CSS START
 /*----------------------------------------*/
 .location-item {
-  background-color: #F4F7F6;
+  background: linear-gradient(180deg, #F1F6FF 0%, rgba(252, 253, 255, 0) 100%);
   padding: 40px 40px 30px 40px;
   border-radius: 12px;
   min-height: calc(100% - 30px);
@@ -6543,7 +6575,7 @@ p.checkout-coupon input[type=text]:focus {
   font-size: 30px;
 }
 
-.basic-login .tp-btn-2 {
+.basic-login .tp-btn-3 {
   text-transform: uppercase;
 }
 

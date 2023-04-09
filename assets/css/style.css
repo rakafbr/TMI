@@ -3792,7 +3792,7 @@ div.choose-sub-color {
   font-family: "Gordita-500";
 }
 .c-details-ava span a:hover {
-  color: var(--tp-astronaut-blue);
+  text-decoration-line: underline;
 }
 
 .c-details-title {
@@ -3860,7 +3860,11 @@ div.choose-sub-color {
     font-size: 20px;
   }
 }
-
+.c-avata-title:hover {
+  color: var(--tp-astronaut-blue);
+  font-size: 30px;
+  text-decoration-line: underline;
+}
 .course-avata {
   width: 190px;
 }

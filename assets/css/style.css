@@ -5509,6 +5509,8 @@ div.choose-sub-color {
   margin-bottom: 17px;
   color: var(--tp-astronaut-blue);
   margin-right: 10px;
+  
+
 }
 
 .rc__post ul li:not(:last-child) {
@@ -5525,6 +5527,7 @@ div.choose-sub-color {
 .rc__post-thumb img {
   max-width: 90px;
   height: 90px;
+  border-radius: 12px;
   object-fit: cover;
 }
 .rc__post-title {
@@ -5566,6 +5569,7 @@ div.choose-sub-color {
   padding: 60px 30px 50px 30px;
   background: var(--tp-white);
   box-shadow: 5px 15px 30px rgba(5, 13, 54, 0.05);
+  border-radius: 12px;
 }
 .sidebar__widget:last-child {
   margin-bottom: 0;
@@ -5582,7 +5586,7 @@ div.choose-sub-color {
 }
 .sidebar__widget ul li a {
   padding: 15px 0;
-  color: var(--tp-catalina-blue);
+  color: var(--tp-astronaut-blue);
   display: block;
   text-transform: capitalize;
   font-weight: 400;
@@ -5590,13 +5594,14 @@ div.choose-sub-color {
   border-bottom: 1px solid var(--tp-grey-200);
 }
 .sidebar__widget ul li a:hover {
-  color: var(--tp-astronaut-blue);
+  color: var(--tp-torch-red);
+  font-weight: 500;
 }
 .sidebar__widget ul li a span {
   float: right;
-  color: var(--tp-torch-red);
-  font-weight: 500;
-  font-family: "Gordita-500";
+  color: var(--tp-kashmir-blue);
+  font-weight: 400;
+  font-family: "Gordita-400";
 }
 .sidebar__widget ul li ul {
   padding-left: 15px;
@@ -5615,7 +5620,7 @@ div.choose-sub-color {
   -moz-border-radius: 8px;
   -o-border-radius: 8px;
   -ms-border-radius: 8px;
-  border-radius: 8px;
+  border-radius: 12px;
   border: 2px solid var(--tp-grey-200);
   outline: none;
   padding-top: 3px;
@@ -5637,7 +5642,7 @@ div.choose-sub-color {
   -moz-border-radius: 0 7px 7px 0;
   -o-border-radius: 0 7px 7px 0;
   -ms-border-radius: 0 7px 7px 0;
-  border-radius: 0 7px 7px 0;
+  border-radius: 0 12px 12px 0;
   background: var(--tp-torch-red);
 }
 .sidebar__banner::after {
@@ -5676,11 +5681,12 @@ div.choose-sub-color {
   font-weight: 400;
   font-size: 14px;
   line-height: 1;
-  padding: 10px 23px;
+  padding: 12px 18px;
   margin-bottom: 10px;
   margin-right: 5px;
   border-radius: 8px;
   border: 0;
+  border-radius: 40px;
 }
 .tagcloud a:hover {
   background: var(--tp-astronaut-blue);

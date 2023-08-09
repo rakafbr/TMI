@@ -5919,8 +5919,8 @@ blockquote cite::before {
   top: 50%;
   transform: translateY(-50%);
   font-family: "Font Awesome 6 Pro";
-  color: var(--tp-torch-red);
-  font-size: 17px;
+  color: var(--tp-kashmir-blue);
+  font-size: 20px;
   padding-left: 10px;
 }
 @media (max-width: 767px) {
@@ -5935,14 +5935,14 @@ blockquote cite::before {
 
 .accordion-buttons:not(.collapsed) {
   text-decoration: underline;
-  color: var(--tp-torch-red);
+  background-color: var(--tp-catalina-blue);
+  color: var(--tp-white);
 }
 
 .accordion-items .accordion-body {
   font-size: 17px;
   color: var(--tp-text-2);
   padding: 20px 40px 30px 40px;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 @media (max-width: 767px) {
   .accordion-items .accordion-body {
@@ -6570,7 +6570,7 @@ p.checkout-coupon input[type=text]:focus {
 }
 
 .order-button-payment input:hover {
-  background: var(--tp-torch-red) none repeat scroll 0 0;
+  background: var(--tp-catalina-blue) none repeat scroll 0 0;
 }
 
 .payment-method .btn-link {
